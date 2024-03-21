@@ -1,0 +1,64 @@
+<html>
+  
+<head>
+  <title>Marina Godinho</title>
+  <style>
+}
+h2 {  
+padding-top: 25px;
+}
+h3 {  
+padding-top: 25px;
+margin-left:133px;
+}
+p.main {  
+padding-bottom: 15px;
+padding-right: 15px;
+padding-left: 15px;
+margin-left:138px;
+margin-right:138px;
+text-align: justify; 
+}
+p.highlight {  
+padding-bottom: 25px;
+padding-right: 153px;
+padding-left: 153px;
+text-align: justify; 
+}
+p.head {  
+padding-top: 15px;
+margin-left:15px;
+}
+img {
+  width: 20%;
+  height: auto;
+  margin-left:133px;
+  margin-right:133px;
+}
+</style>
+</head>
+  
+<body style="background-color:#f2f3f4;">
+  <p class="head" style="font-family:tahoma;font-size:120%;color:#403131;"> <b>Marina Godinho </b> </p>
+  <h2 style="text-align:center;color:#944547 ;font-family:tahoma;font-size:160%"> Welcome! </h2>
+  <h3 style="color:#944547;font-family:tahoma;"> About me </h3>
+  <p class="highlight" style="font-family:tahoma;font-size:110%;background-color:#ffe0e0;"> <br> 
+    I am a Ph.D. student at the University of Glasgow, supervised by <a href="https://www.maths.gla.ac.uk/~mwemyss/"> Michael Wemyss</a>. My research interests centre 
+    around homological algebra and representation theory, as well as noncommutative algebraic geometry. I am currently thinking about derived equivalences and 
+    autoequivalences between threefolds with canonical singularities. I am also working on a joint project about Paquette-Yıldırım categories and their relation to singularity 
+    categories.   
+  </p>
+    <div> 
+    <div> 
+      <img src="me.jpg" style="float: right; width: 20%;"  />
+    </div> 
+      
+      <p class="main" style="font-family:tahoma;font-size:110%"> Feel free to contact me at m <i>dot</i> purri-brant-godinho <i>dot</i> 1 <i>at</i> research <i>dot</i> gla <i>dot</i> ac <i>dot</i> uk . </p>
+      <h3 style="color:#944547;font-family:tahoma";> Other Activities </h3>
+  <p class="main" style="font-family:tahoma;font-size:110%">
+  I am the Glasgow organiser for the <a href="https://sites.google.com/view/gears-seminar/home"> GEARS Seminar</a>, and I previously co-organised the 
+    <a href="https://sites.google.com/view/pgseminar/home"> Glasgow PG Seminar</a> with <a href="https://sites.google.com/view/lewisdean/"> Lewis Dean</a>. 
+  </p>
+  
+  </div> 
+</html>
