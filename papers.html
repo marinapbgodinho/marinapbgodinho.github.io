@@ -65,7 +65,7 @@ li {
   float: left;
 }
 
-li a {
+li a.main {
   display: block;
   color: black;
   text-align: center;
@@ -74,7 +74,7 @@ li a {
   font-family:tahoma
 }
 
-li a:hover:not(.active) {
+li a.main:hover:not(.active) {
   text-decoration-line: underline;
   text-decoration-style: wavy;
   text-decoration-color: #cc66cc;
@@ -96,11 +96,11 @@ li a:hover:not(.active) {
 </head>
 <body style="background-color:#f2f3f4;">
 <ul>
-  <li style="float:right"><a href="other.html">Other</a></li>
-  <li style="float:right"><a href="talks.html">Talks</a></li>
+  <li style="float:right"><a class="main" href="other.html">Other</a></li>
+  <li style="float:right"><a class="main" href="talks.html">Talks</a></li>
   <li style="float:right"><a  class="active" href="papers.html">Papers</a></li>
   <li><div style="padding-top:14px"><div class="square"></div></div></li>
-  <li><a href="index.html">About</a></li>
+  <li><a class="main" href="index.html">About</a></li>
 </ul>
 <h2 style="margin-top:8%;"> Preprints </h2>
 <ol>
