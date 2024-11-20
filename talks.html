@@ -18,6 +18,11 @@
   margin-right:15%;
   font-family:tahoma
   }
+  h3{
+  margin-left:15%;
+  margin-right:15%;
+  font-family:tahoma
+  }
   ol{
   margin-left:15%;
   margin-right:15%;
@@ -119,7 +124,7 @@ table, th, td {
   font-family:tahoma;
 }
 
-.active, .collapsible:hover {
+collapsible.active, .collapsible:hover {
   background-color: #f2d9f2;
 }
 
@@ -154,19 +159,20 @@ collapsible.active:after {
   <li><div style="padding-top:14px"><div class="square"></div></div></li>
   <li><a class="main" href="index.html">About</a></li>
 </ul>
-<h2 style="margin-top:7%;"> Upcoming </h2>
-<button class="collapsible"><table style="width:90%;display:inline-table;">
+<h3 style="margin-top:7%;"> Upcoming </h2>
+<p><button class="collapsible"><table style="width:90%;display:inline-table;">
   <tr>
     <td width="15%">03/12/2024</td> <td>A twist on ring morphisms (Algebra seminar, Leeds).</td>
   </tr>
 </table></button>
 <div class="content">
   <p>TBA</p>
-</div>
-<h2 style="margin-top:7%;"> 2024 </h2>
-<h2 style="margin-top:7%;"> 2023 </h2>
-<h2 style="margin-top:7%;"> 2022 </h2>
-<h2 style="margin-top:7%;"> 2021 </h2>
+</div> </p>
+<h3 style="margin-top:2%;"> 2024 </h2>
+<h3 style="margin-top:2%;"> 2023 </h2>
+<h3 style="margin-top:2%;"> 2022 </h2>
+<h3 style="margin-top:2%;"> 2021 </h2>
+
 <script>
 var coll = document.getElementsByClassName("collapsible");
 var i;
