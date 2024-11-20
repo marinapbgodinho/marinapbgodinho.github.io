@@ -90,14 +90,14 @@ li a.main {
   font-family:tahoma
 }
 
-li a.main:hover:not(.active) {
+li a.main:hover:not(.activeMenu) {
   text-decoration-line: underline;
   text-decoration-style: wavy;
   text-decoration-color: #cc66cc;
   text-decoration-thickness: 2px;
 }
 
-a.main.active {
+a.main.activeMenu {
   text-decoration-line: underline;
   text-decoration-color: #cc66cc;
   text-decoration-thickness: 2px;
@@ -133,7 +133,7 @@ table, th, td {
   font-family:tahoma;
 }
 
-collapsible.active, .collapsible:hover {
+.collapsible:hover {
   background-color: #f2d9f2;
 }
 
@@ -144,7 +144,7 @@ collapsible.active, .collapsible:hover {
   float: right;
 }
 
-collapsible.active:after {
+.active:after {
   content: "\2212";
 }
 
@@ -162,7 +162,7 @@ collapsible.active:after {
 <body style="background-color:#f2f3f4;">
 <ul>
   <li style="float:right"><a class="main" href="other.html">Other</a></li>
-  <li style="float:right"><a class="main active" href="talks.html">Talks</a></li>
+  <li style="float:right"><a class="main activeMenu" href="talks.html">Talks</a></li>
   <li style="float:right"><a  class="main" href="papers.html">Papers</a></li>
   <li><div style="padding-top:14px"><div class="square"></div></div></li>
   <li><a class="main" href="index.html">About</a></li>
@@ -177,6 +177,14 @@ collapsible.active:after {
   <p class="main">TBA</p>
 </div>
 <h3 style="margin-top:2%;"> 2024 </h2>
+  <button class="collapsible"><table style="width:60%;display:inline-table;">
+  <tr>
+    <td width="15%">03/12/2024</td> <td>A twist on ring morphisms (Algebra seminar, Leeds).</td>
+  </tr>
+</table></button>
+<div class="content">
+  <p class="main">TBA</p>
+</div>
 <h3 style="margin-top:2%;"> 2023 </h2>
 <h3 style="margin-top:2%;"> 2022 </h2>
 <h3 style="margin-top:2%;"> 2021 </h2>
