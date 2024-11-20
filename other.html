@@ -1,24 +1,59 @@
 <html>
   
 <head>
-  <title>Talks</title>
+  <title>Other</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon.png">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
-h3{
-  padding-right: 15px;
-  padding-left: 15px;
-}
-p.main {  
+@media all and (min-width: 1500px) {
+  p.main {  
   padding-bottom: 10px;
-  padding-right: 15px;
-  padding-left: 15px;
-  text-align: justify; 
+  margin-left:15%;
+  margin-right:15%;
+  text-align: justify;
+  font-family:tahoma;
+  font-size:14px;
+  }
+  h2{
+  margin-left:15%;
+  margin-right:15%;
+  font-family:tahoma;
+  font-size:20px;
+  }
+  ol{
+  margin-left:15%;
+  margin-right:15%;
+  font-family:tahoma
+  }
+}
+@media all and (max-width: 1500px) {
+  html,body{
+width: 100%;
+height: 100%;
+margin:0pt;
+padding:0px;
+overflow-x:hidden;
+  }
+  p.main {  
+  padding-bottom: 10px;
+  text-align: justify;
+  font-family:tahoma;
+    font-size:14px;
+  }
+  h2{
+  font-family:tahoma;
+  font-size:20px;
+  }
+  ol{
+  font-family:tahoma
+  }
 }
 p.head {  
   padding-bottom: 15px;
   padding-right: 15px;
   padding-left: 15px;
-  text-align: left; 
+  text-align: left;
+  font-family:tahoma
 }
 ul {
   list-style-type: none;
@@ -26,27 +61,36 @@ ul {
   padding: 0;
   overflow: hidden;
 }
-
+dd {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
 li {
   float: left;
 }
-
-li a {
+dd a.hyperlink{
+  color: #cc66cc;
+  text-decoration: none;
+  font-family:tahoma
+}
+li a.main {
   display: block;
   color: black;
   text-align: center;
-  padding: 12px 14px;
+  padding: 12px 16px;
   text-decoration: none;
+  font-family:tahoma
 }
 
-li a:hover:not(.active) {
+li a.main:hover:not(.active) {
   text-decoration-line: underline;
   text-decoration-style: wavy;
   text-decoration-color: #cc66cc;
   text-decoration-thickness: 2px;
 }
 
-.active {
+a.main.active {
   text-decoration-line: underline;
   text-decoration-color: #cc66cc;
   text-decoration-thickness: 2px;
@@ -61,10 +105,18 @@ li a:hover:not(.active) {
 </head>
 <body style="background-color:#f2f3f4;">
 <ul>
-  <li style="float:right"><a class="active" href="other.html">Other</a></li>
-  <li style="float:right"><a href="talks.html">Talks</a></li>
-  <li style="float:right"><a href="papers.html">Papers</a></li>
+  <li style="float:right"><a class="main" href="other.html">Other</a></li>
+  <li style="float:right"><a class="main" href="talks.html">Talks</a></li>
+  <li style="float:right"><a  class="main active" href="papers.html">Papers</a></li>
   <li><div style="padding-top:14px"><div class="square"></div></div></li>
-  <li><a href="index.html">About</a></li>
+  <li><a class="main" href="index.html">About</a></li>
 </ul>
+<h2 style="margin-top:7%;"> Organisational activities: </h2>
+<ol>
+  
+  <li style="font-size=200%">
+      <dt> <b>A twist on ring morphisms and crepant contractions. </b> </dt> 
+      <dd><a class="hyperlink" href="https://arxiv.org/abs/2410.24030">Preprint</a> available on arXiv. </dd>
+  </li>
+</ol>
 </body>
